@@ -1,12 +1,19 @@
-Perform code review for PR 301
-- Just provide a feedback, don't make changes. 
-- If needed, provide comments to post with exact location (file and line).
-They need to be brief and go straight to the point
+Perform code review for PR 59, 74, 75, 76.
 
-for each point:
-1. Give a level of severity
-2. Provide a code change proposal (don't change the source code, just report the proposed change in the output). Be clear on what lines replace
+For each PR, write a PR-NN.md containing:
+- Feedback only, no source changes.
+- Comments with exact location (file and line) where applicable.
+- Brief, straight to the point.
+
+For each comment:
+1. Severity level.
+2. Proposed code change (as text in the output only, not applied). State exactly which lines it replaces.
+3. Aside the technical comment, provide a non-technical comment 
+
+Formatting rules:
+- No line breaks mid-sentence.
+- No em-dashes.
 
 General rules:
-- Avoid any line break if the sentence is not completed
-- Don't use em-dashes
+- Double check the location before writing the file.
+- Sort issues by severity (from Highest to Lowest)
