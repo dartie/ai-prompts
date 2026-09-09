@@ -5,15 +5,14 @@ For each PR, write a PR-NN.md containing:
 - Comments with exact location (file and line) where applicable.
 - Brief, straight to the point.
 
-For each comment:
-1. Severity level.
-2. Proposed code change (as text in the output only, not applied). State exactly which lines it replaces.
-3. Aside the technical comment, provide a non-technical comment 
+For each finding, in this order:
+1. Title
+2. Severity
+3. File location
+4. Non-Technical description
+5. Technical description
+6. Proposed code change / replacement (as text in the output only, not applied). State exactly which lines it replaces.
 
 Formatting rules:
 - No line breaks mid-sentence.
 - No em-dashes.
-
-General rules:
-- Double check the location before writing the file.
-- Sort issues by severity (from Highest to Lowest)
